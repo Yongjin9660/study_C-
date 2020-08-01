@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoriDori_Inheritance", "DoriDori_Inheritance.csproj", "{BA703112-7B49-4CEB-83A4-74D1658ED31D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA703112-7B49-4CEB-83A4-74D1658ED31D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA703112-7B49-4CEB-83A4-74D1658ED31D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA703112-7B49-4CEB-83A4-74D1658ED31D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA703112-7B49-4CEB-83A4-74D1658ED31D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5E6CA11-5EAE-46C5-A28B-EFF95238D69C}
+	EndGlobalSection
+EndGlobal

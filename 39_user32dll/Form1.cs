@@ -24,6 +24,7 @@ namespace _39_user32dll
         {
             _kbdHook.hook();
             _kbdHook.KeyDown += _kbdHook_KeyDown;
+
         }
 
         private void _kbdHook_KeyDown(object sender, KeyEventArgs e)

@@ -32,16 +32,14 @@ namespace _39_user32dll
             if (e.Control && e.KeyCode == Keys.C)
             {
                 Thread.Sleep(400);
-
                 lboxTestSave.Items.Add(Clipboard.GetData(System.Windows.Forms.DataFormats.UnicodeText).ToString());
             }
         }
         private void lboxTestSave_SelectedIndexChanged_1(object sender, EventArgs e)
         {
             if (lboxTestSave.SelectedIndex != -1)
-            {
                 Clipboard.SetData(System.Windows.Forms.DataFormats.UnicodeText, lboxTestSave.SelectedItem.ToString());
-            }
+
         }
     }
 }
